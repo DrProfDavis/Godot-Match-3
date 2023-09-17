@@ -15,10 +15,16 @@ run/main_scene="res://Scenes/game_window.tscn"
 config/features=PackedStringArray("4.1", "Mobile")
 config/icon="res://icon.svg"
 
+[debug]
+
+settings/stdout/print_fps=true
+
 [display]
 
 window/size/viewport_width=576
 window/size/viewport_height=1024
+window/size/window_width_override=288
+window/size/window_height_override=512
 window/stretch/mode="viewport"
 
 [input]
